@@ -17,7 +17,7 @@ The system requires users to configure a minimal set of **environment variables*
 First, clone this repository to your workspace. This contains all the setup and wrapper scripts you'll need:
 
 ```bash
-git clone https://github.com/geoelements/gns-TACC-setup.git
+git clone https://github.com/ritwik-sain/gns-TACC-setup.git
 cd gns-TACC-setup
 ```
 
