@@ -269,3 +269,20 @@ Before running training or inference:
 3. ✓ **Populate your dataset** — download and place files (`metadata.json`, `train.npz`, `valid.npz`, etc.) into `${GNS_DATA_DIR}`
 4. ✓ **Prepare configuration** — ensure `config.yaml` exists and is configured in `${GNS_REPO_DIR}` (see [geoelements/gns documentation](https://github.com/geoelements/gns/tree/v2))
 5. ✓ **Run bootstrap** — initialize directories and container image via `${GNS_SETUP_DIR}/bootstrap.sh`
+
+---
+
+## Citation
+
+If you use this code in published work, please cite:
+
+```
+Setup and Deployment Guide for geoelements/gns on TACC
+https://github.com/ritwik-sain/gns-TACC-setup.git
+```
+
+---
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for details.
