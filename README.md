@@ -196,9 +196,11 @@ Common parameters:
 - `--steps` — total number of training steps
 - `--save_steps` — save model checkpoint every N steps
 - `--batch` — batch size
-- `--lr_init` — initial learning rate
-- `--lr_decay` — learning rate decay factor
-- `--noise_std` — noise standard deviation
+- `--model_path` — path to the models directory
+- `--resume` — BOOLEAN for resuming training
+- `--model` — model filename to resume training from
+- `--output_path` — path to the rollout outputs directory
+- `--output_filename` — rollout output filename
 - Additional parameters are documented in the script
 
 ### Running Inference/Rollout
